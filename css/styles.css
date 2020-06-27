@@ -1,0 +1,70 @@
+/* General */
+body {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+/* HEADINGS */
+.huge-heading {
+    font-size: 3rem;
+}
+
+.big-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.top-container {
+    text-align: center;
+}
+
+/* Sections */
+.part {
+    margin: 2rem 0;
+}
+
+.part-par {
+    margin-bottom: 0;
+}
+
+/* Tables */
+.lefte {
+    text-align: right;
+}
+
+/* Work */
+.work-year {
+    float: right;
+}
+
+/* Bullet */
+.bullet {
+    padding-left: 20px;
+}
+
+/* My phone viewers */
+@media (max-width: 770px) {
+    .address .lefte {
+        text-align: left;
+    }
+
+    .container-fluid {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .work-year {
+        float: none;
+        display: block;
+    }
+
+    .part {
+        margin: 2.5rem 0;
+    }
+}
