@@ -49,7 +49,7 @@ body {
 }
 
 /* My phone viewers */
-@media (max-width: 770px) {
+@media (max-width: 920px) {
     .address .lefte {
         text-align: left;
     }
