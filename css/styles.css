@@ -33,6 +33,10 @@ body {
     margin-bottom: 0;
 }
 
+.p-except {
+    margin-bottom: 0;
+}
+
 /* Tables */
 .lefte {
     text-align: right;
